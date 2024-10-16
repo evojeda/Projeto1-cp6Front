@@ -1,0 +1,39 @@
+/* Navegação */
+.nav {
+    background-color:#F7E2D0;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px; 
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%; 
+    box-sizing: border-box; 
+    }
+    
+  .nav-logo {
+    position: absolute;
+    left: 20px; 
+  }
+    
+  .logo-img {
+    width: 130px; 
+    height: auto; 
+  }  
+    
+  .nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+    
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; 
+    font-size: 14px; 
+    font-weight: bold;
+  }
+    
+  .nav a:hover {
+    color: #f16bba;
+  }
